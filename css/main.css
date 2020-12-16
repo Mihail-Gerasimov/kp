@@ -1,0 +1,305 @@
+/* base */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #fff;
+}
+
+a,
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+}
+
+input:hover,
+button:hover {
+    border: 0;
+    outline: none;
+}
+
+input:focus,
+button:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 0 5px 0 5px;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1400px;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 992px;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 768px;
+        padding: 0 8px 0 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 576px;
+        padding: 0 8px 0 8px;
+    }
+}
+
+.title-medium {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+
+.bg-pink {
+    background-color: #ED5B65;
+}
+
+.square-small {
+    height: 135px;
+    width: 135px;
+    background: #F56F79;
+}
+
+
+/* @media (max-width: 426px) {
+    .container {
+        max-width: 426px;
+        padding: 0 5px 0 5px;
+    }
+}
+
+@media (max-width: 326px) {
+    .container {
+        max-width: 326px;
+        padding: 0 5px 0 5px;
+    }
+} */
+
+
+/* base */
+
+
+/* top */
+
+.top {
+    padding-top: 90px;
+    margin-bottom: 200px;
+}
+
+.logo {
+    margin-bottom: 95px;
+}
+
+.bacground-block::after {
+    left: 50%;
+    bottom: -40px;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 90%;
+    background: #F1F1F1;
+    border-bottom: 1px solid #D2D2D2;
+    border-right: 1px solid #D2D2D2;
+    border-left: 1px solid #D2D2D2;
+    height: 40px;
+    transform: translateX(-50%);
+}
+
+.sentence-content__item {
+    padding-left: 136px;
+    padding-top: 110px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FF9FA6;
+    margin-bottom: 90px;
+}
+
+.title-sentence {
+    padding-left: 135px;
+}
+
+.credit {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    padding-left: 136px;
+    width: 750px;
+    margin-bottom: 131px;
+}
+
+.circles {
+    max-width: 530px;
+    right: 0;
+}
+
+.scroll-position {
+    transform: rotate(-90deg);
+    bottom: 167px;
+    right: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+    width: 160px;
+    margin-left: 20px;
+}
+
+.mouse {
+    transform: rotate(90deg);
+}
+
+.square-position--two {
+    right: 250px;
+    bottom: 0;
+}
+
+.points-right {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.points-two {
+    height: 170px;
+    margin-bottom: 100px;
+}
+
+
+/* top */
+
+
+/* advantages */
+
+.title-advantages {
+    color: #ED5B65;
+    padding-left: 100px;
+    margin-bottom: 130px;
+}
+
+.block__item--card {
+    margin-bottom: 100px;
+}
+
+.block__item--card:last-child {
+    margin-bottom: 0px;
+}
+
+.item--card__top {
+    margin-bottom: 25px;
+}
+
+.item--card__top--images {
+    margin-right: 50px;
+}
+
+.item--card__title {
+    width: 325px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.item--card__information {
+    padding-left: 121px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    width: 506px;
+    height: 96px;
+}
+
+.btn-medium {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 25px 115px !important;
+}
+
+
+/* advantages */
