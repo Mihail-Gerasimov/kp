@@ -254,10 +254,14 @@ button:focus {
 
 /* advantages */
 
+.advantages {
+    margin-bottom: 220px;
+}
+
 .title-advantages {
     color: #ED5B65;
-    padding-left: 100px;
     margin-bottom: 130px;
+    padding-left: 121px;
 }
 
 .block__item--card {
@@ -273,11 +277,13 @@ button:focus {
 }
 
 .item--card__top--images {
+    height: 72px;
+    width: 72px;
     margin-right: 50px;
 }
 
 .item--card__title {
-    width: 325px;
+    width: 360px;
     font-weight: 800;
     font-size: 24px;
     line-height: 29px;
@@ -293,6 +299,7 @@ button:focus {
 }
 
 .btn-medium {
+    margin-left: 121px;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
@@ -303,3 +310,108 @@ button:focus {
 
 
 /* advantages */
+
+
+/* tages */
+
+.tages {
+    margin-bottom: 400px;
+}
+
+
+/* tages */
+
+
+/* important */
+
+.important {
+    margin-bottom: 150px;
+}
+
+.important-thanks {
+    margin-right: 190px;
+}
+
+.important-thanks__links {
+    margin-bottom: 60px;
+}
+
+.links--item {
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.links--item:last-child {
+    margin-right: 0px;
+}
+
+.title-important {
+    color: #ED5B65;
+    margin-bottom: 35px;
+}
+
+.important-information {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    width: 685px;
+    margin-bottom: 90px;
+}
+
+.important-social__networks {
+    margin-right: 35px;
+}
+
+.important-social__networks:last-child {
+    margin-right: 0ox;
+}
+
+.important-partner {
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+    width: 450px;
+    padding: 60px 0 70px 0;
+}
+
+.important-partner__title {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    transform: uppercase;
+    color: #ED5B65;
+    margin-bottom: 40px;
+}
+
+.important-partner__text {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    width: 275px;
+}
+
+.important-partner__text span {
+    font-weight: bold;
+}
+
+
+/* important */
+
+
+/* footer */
+
+.footer-text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 25px 0;
+    margin: 0 auto;
+    width: 920px;
+}
+
+
+/* footer */
