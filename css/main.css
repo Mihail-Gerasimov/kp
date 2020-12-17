@@ -312,6 +312,72 @@ button:focus {
 /* advantages */
 
 
+/* cases */
+
+.cases {
+    margin-bottom: 220px;
+}
+
+.title-cases {
+    width: 675px;
+    transform: rotate(-90deg);
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 110px;
+    color: #DEDEDE;
+    left: -140px;
+    top: 282px;
+}
+
+.cases-block {
+    padding-left: 200px;
+    margin-bottom: 190px;
+}
+
+.cases-block:last-child {
+    margin-bottom: 0px;
+}
+
+.block__cities {
+    padding-top: 50px;
+    height: 550px;
+    position: sticky;
+    top: 0;
+}
+
+.cities-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 80px;
+}
+
+.per-month_title {
+    color: #ED5B65;
+    margin-bottom: 20px;
+}
+
+.applications-per-month__item {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.ruble__text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    width: 270px;
+}
+
+.block-statistics__calibri {
+    margin-bottom: 60px;
+}
+
+
+/* cases */
+
+
 /* tages */
 
 .tages {

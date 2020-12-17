@@ -1,24 +1,23 @@
+@media (max-width: 1700px) {
+    /* cases */
+    .title-cases {
+        left: -220px;
+    }
+    /* cases */
+}
+
+@media (max-width: 1600px) {
+    /* cases */
+    .title-cases {
+        left: -293px;
+    }
+    /* cases */
+}
+
 @media (max-width: 1499px) {
     /* advantages */
     .advantages-block__item:nth-child(3) {
         padding-top: 50px;
-    }
-    /* advantages */
-}
-
-@media (max-width: 1001px) {
-    /* advantages */
-    .advantages-block__item:nth-child(3) {
-        padding-top: 0px;
-    }
-    .advantages-block__item {
-        margin-bottom: 40px;
-    }
-    .advantages-block__item:last-child {
-        margin-bottom: 0px;
-    }
-    .block__item--card {
-        margin-bottom: 40px;
     }
     /* advantages */
 }
@@ -74,6 +73,55 @@
         width: 430px;
     }
     /* important */
+    /* cases */
+    .title-cases {
+        width: 488px;
+        font-size: 70px;
+        line-height: 84px;
+        left: -200px;
+        top: 198px;
+    }
+    .cases-block {
+        padding-left: 150px;
+        top: 110px;
+    }
+    .block__cities {
+        padding-top: 40px;
+        height: 420px;
+        margin-right: 20px;
+    }
+    .cities-title {
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 40px;
+    }
+    .applications-per-month__item {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .ruble__text {
+        font-size: 18px;
+        line-height: 23px;
+        width: 201px;
+    }
+    /* cases */
+}
+
+@media (max-width: 1001px) {
+    /* advantages */
+    .advantages-block__item:nth-child(3) {
+        padding-top: 0px;
+    }
+    .advantages-block__item {
+        margin-bottom: 40px;
+    }
+    .advantages-block__item:last-child {
+        margin-bottom: 0px;
+    }
+    .block__item--card {
+        margin-bottom: 40px;
+    }
+    /* advantages */
 }
 
 @media (max-width: 992px) {
@@ -125,6 +173,50 @@
         margin-bottom: 150px;
     }
     /* advantages */
+    /* cases */
+    .title-cases {
+        display: none;
+    }
+    .cases-block {
+        padding-left: 0;
+        margin-bottom: 70px;
+    }
+    .block__cities {
+        margin: 0 auto 0 auto;
+        margin-bottom: 30px;
+        height: auto;
+        padding-top: 0;
+        position: inherit;
+    }
+    .cities-title {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .per-month_title {
+        margin-bottom: 10px;
+    }
+    .applications-per-month__item {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .ruble__text {
+        font-size: 18px;
+        line-height: 23px;
+        width: 201px;
+    }
+    .block-statistics {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .block-statistics__calibri {
+        margin-bottom: 25px;
+    }
+    .block-statistics img {
+        width: 370px;
+    }
+    /* cases */
     /* important */
     .important-thanks__links {
         display: none;
@@ -213,6 +305,11 @@
         display: none;
     }
     /* top */
+    /* cases */
+    .cases-block {
+        flex-direction: column !important;
+    }
+    /* cases */
     /* footer */
     .footer-text {
         width: 270px;
@@ -324,4 +421,13 @@
         width: 180px;
     }
     /* important */
+}
+
+@media (max-width: 425px) {
+    .block__cities {
+        margin: 0;
+    }
+    .block-statistics {
+        margin: 0;
+    }
 }
