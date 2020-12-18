@@ -341,7 +341,7 @@ button:focus {
 
 .payback-position {
     width: 400px;
-    right: -790px;
+    right: -800px;
     transform: translate(-70%, -75%);
     border: 8px solid #FFFFFF;
     box-shadow: 0px 60px 50px -31px rgba(0, 0, 0, 0.25);
@@ -351,6 +351,10 @@ button:focus {
     flex-direction: row-reverse;
 }
 
+.payback-face {
+    width: 70%;
+}
+
 .title-payback {
     font-weight: 800;
     font-size: 48px;
@@ -358,7 +362,7 @@ button:focus {
     color: #FFFFFF;
     padding: 82px 80px;
     margin-right: 20px;
-    width: 100%;
+    width: 30%;
     height: auto;
 }
 
@@ -552,7 +556,7 @@ button:focus {
 }
 
 .close {
-    padding: 1.5rem 1rem;
+    padding: 1rem 1rem 2rem 0rem !important;
     float: right;
     color: #000;
     text-shadow: 0 0 0 #fff;
