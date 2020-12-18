@@ -124,6 +124,30 @@
     /* advantages */
 }
 
+@media (max-width: 835px) {
+    /* modal */
+    .modal-dialog {
+        max-width: 315px !important;
+        margin: 1.75rem auto !important;
+    }
+    .modal-body--content__right {
+        display: none;
+    }
+    .modal-content {
+        padding: 20px 10px 21px 20px;
+    }
+    .title-modal {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .modal-body__text {
+        font-size: 14px;
+        line-height: 17px;
+        width: 275px;
+    }
+    /* modal */
+}
+
 @media (max-width: 992px) {
     /* top */
     .digital {
@@ -243,6 +267,14 @@
         line-height: 15px;
     }
     /* footer */
+    /* modal */
+    .modal-content {
+        padding: 20px 0 30px 30px;
+    }
+    .modal-dialog {
+        max-width: 830px;
+    }
+    /* modal */
 }
 
 @media (max-width: 767px) {
@@ -421,6 +453,19 @@
         width: 180px;
     }
     /* important */
+    /* modal */
+    .modal-thanks {
+        width: 315px;
+    }
+    .modal-thanks__content {
+        padding: 70px 0 0 0;
+    }
+    .thanks__content--text {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 120px;
+    }
+    /* modal */
 }
 
 @media (max-width: 425px) {

@@ -12,7 +12,63 @@
 </head>
 
 <body>
+    <!-- modal -->
+    <!-- Button trigger modal -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header p-0">
+                    <button pt-0 pb-0 type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="pr-4" aria-hidden="true">Закрыть</span>
+          </button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="modal-body--content d-flex justify-content-between">
+                        <div class="modal-body--content__left">
+                            <h5 class="modal-title title-modal mb-3" id="staticBackdropLabel">Хочу заявки!</h5>
+                            <p class="modal-body__text">
+                                Для получения заявок, оставьте номер телефона и ваше имя. Наш менеджер расскажет вам все подробнее.
+                            </p>
+                            <form action="" class="d-flex flex-column mb-4">
+                                <input class="mb-4 pl-4 py-3 style-input" type="text" placeholder="Ваше Имя">
+                                <input class=" pl-4 py-3 style-input" type="text" placeholder="+7 (___) ___ - __ - __">
+                            </form>
+                            <label class="label-radio">
+                                <input type="checkbox" name="people-number " class="real-radio "> 
+                                <div class="custom-radio"><img src="./img/modal/chek.svg" alt=""></div>
+                                <p class="custom-radio--text">Согласие на обработку своих персональных данных</p>
+                            </label>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary bg-pink">Хочу заявки!</button>
+                            </div>
+                        </div>
+                        <div class="modal-body--content__right position-relative">
+                            <img src="./img/modal/girl.png" class="position-absolute" alt="">
+                            <div class="body--content__right--color bg-pink position-relative">
+                                <img src="./img/top/circles.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-thanks" style="display: none;">
+        <div class="modal-thanks__grey position-absolute"></div>
+        <div class="modal-thanks__content d-flex flex-column align-items-center justify-content-center">
+            <img class="mb-5" src="./img/modal/green.png" alt="">
+            <h5 class="modal-title title-modal mb-5 text-center" id="staticBackdropLabel">Заявка<br>отправлена
+            </h5>
+            <p class="thanks__content--text">
+                Мы получили вашу заявку.<br>Наш менеджер свяжится с вами.
+            </p>
+        </div>
+        <div class="modal-thanks__pink position-absolute bg-pink"></div>
+    </div>
+    <!-- modal -->
     <section class="top">
         <div class="container">
             <div class="row w-100 mx-0">
@@ -98,18 +154,36 @@
                         <p class="item--card__information">Наши заявки приносят от 30 до 50% встреч от количества лидов.</p>
                     </div>
 
-                    <button class="btn-medium bg-pink p-0">Хочу заявки!</button>
+                    <button class="btn-medium bg-pink p-0" data-toggle="modal" data-target="#staticBackdrop">Хочу заявки!</button>
                 </div>
 
             </div>
 
         </div>
     </section>
-    <section class="description"></section>
+    <section class="description" style="display: none;">
+        <div class="row mx-0 w-100 bias">
+            <div class="description-block position-relative">
+                <h2 class="title-medium title-description">О нас</h2>
+                <p class="description-text">
+                    L-Digital. Уже больше 3 лет мы работаем с Кредитными брокерами по всей России и создали и протестировали 10-ки сайтов и помогли заказчикам выделиться среди конкурентов и повысить окупаемость инвестиций в рекламу на 1000%.
+                    <br> Повышаем продажи и приводим тех клиентов, которые готовы покупать.
+                </p>
+                <img class="payback-position position-absolute" src="./img/description/peoples.png" alt="">
+            </div>
+            <div class="payback d-flex">
+                <img class="payback-face" src="./img/description/face.png" alt="лица">
+                <h3 class="d-flex justify-content-center title-payback bg-pink">Окупаемость<br>на 1000%</h3>
+            </div>
+        </div>
+    </section>
     <section class="cases position-relative">
 
         <div class="container">
             <h2 class="title-cases position-absolute">
+                Наши кейсы
+            </h2>
+            <h2 class="title-medium d-block d-lg-none title-cases__mobile">
                 Наши кейсы
             </h2>
             <div class="cases-block d-flex justify-content-between">
@@ -239,7 +313,7 @@
                         <p class="item--card__information">Настройка рекламных площадок Яндекс Директ, Google Adwords, Facebook и Instagram в соответствии с Вашим ГЕО работы</p>
                     </div>
 
-                    <button class="btn-medium bg-pink p-0">Хочу заявки!</button>
+                    <button class="btn-medium bg-pink p-0 " data-toggle="modal" data-target="#staticBackdrop">Хочу заявки!</button>
                 </div>
 
             </div>
